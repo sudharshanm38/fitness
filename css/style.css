@@ -364,7 +364,7 @@ background-size: cover;
 .details {
 float: left;
 color: white;
-width: 60%;
+width: 50%;
 background-color:rgba(0,0,0,0.6);
 text-align: center;
 margin-left: 12px;
@@ -778,7 +778,7 @@ text-align: center;
 .details {
 float: none;
 color: white;
-width:100%;
+width:50%;
 background-color:rgba(0,0,0,0.6);
 text-align: center;
 margin-left: -69px;
@@ -786,7 +786,7 @@ padding: 62px;
 margin: 0 auto;
 }
 .map {
-width: 100%;
+width: 35%;
 float: none;
 margin: 0 auto;
 }
