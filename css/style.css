@@ -778,7 +778,7 @@ text-align: center;
 .details {
 float: none;
 color: white;
-width:50%;
+width:70%;
 background-color:rgba(0,0,0,0.6);
 text-align: center;
 margin-left: -69px;
@@ -786,7 +786,7 @@ padding: 62px;
 margin: 0 auto;
 }
 .map {
-width: 30%;
+width: 80%;
 float: none;
 margin: 0 auto;
 }
