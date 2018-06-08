@@ -418,18 +418,27 @@ float: left;
 }
 .footer li {
 float:left;
-padding-top: 25px;
+margin-top: 23px;
 margin-right: 5px;
 list-style-type: none;
-color: darkgrey;
+color: white;
 font-size: 25px;
 margin-left: 10px;
 }
 .footer ul {
 float: right;
 }
-.footer li:hover {
-color: red;
+footer .googleplus:hover {
+color: #DB4437;
+background-color: white;
+}
+footer .facebook:hover {
+color: #3B5998;
+background-color: white;
+}
+footer .twitter:hover {
+color: #1dcaff;
+background-color: white;
 }
 .footer li:hover {
 cursor: pointer;
