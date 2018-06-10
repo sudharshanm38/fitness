@@ -34,14 +34,13 @@
   padding: 15px;
   border-radius: 4px;
 }
-
 #myBtn:hover {
   background-color: #555;
 }
 header {
-  width:100%;
+  width: 100%;
   background-color: rgba(0,0,0,0.7);
-  position:fixed;
+  position: fixed;
   z-index: 2;
 }
 header ul {
@@ -52,7 +51,7 @@ header ul li {
 }
 header ul li a {
   text-decoration: none;
-  color:white;
+  color: white;
   margin-left: 30px;
 }
 header ul li a:hover{
@@ -77,12 +76,11 @@ header span{
   background-size: cover;
 }
 @keyframes animate  {
-  0% { background-image: url("../images/header.jpg")}
+  0%  { background-image: url("../images/header.jpg")}
   65% { background-image: url("../images/background1.jpg");}
   75% { background-image: url("../images/background2.jpg");}
   85% { background-image: url("../images/background3.jpg");}
   100%{ background-image: url("../images/background4.jpg");}
-
 }
 .content {
   padding-top: 150px;
@@ -106,7 +104,7 @@ header span{
   color: white;
   font-size:30px;
 }
-.services{
+.services {
   margin-top: 364px;
   color: white;
   text-align: center;
@@ -174,7 +172,7 @@ header span{
 .inner li:nth-child(1) p,
 .inner li:nth-child(2) p,
 .inner li:nth-child(3) p,
-.inner li:nth-child(4) p{
+.inner li:nth-child(4) p {
   width: 345px;
   height: 350px;
   background-repeat: no-repeat;
@@ -188,11 +186,11 @@ header span{
   background-image: url("../images/weight.png");
   font-size: 20px;
 }
-.inner li:nth-child(3) p{
+.inner li:nth-child(3) p {
   background-image: url("../images/gaining.png");
   font-size: 20px;
 }
-.inner li:nth-child(4) p{
+.inner li:nth-child(4) p {
   background-image: url("../images/loosing2.png");
   font-size: 20px;
 }
@@ -249,9 +247,8 @@ header span{
   font-size: 23px;
   color: black;
 }
-
 .courses .course {
-  background:rgba(0,0,0,0.5);
+  background: rgba(255,0,0,0.68);
   padding: 10px 20px 10px 35px;
   background-repeat: no-repeat;
   background-size: 70px;
@@ -287,7 +284,7 @@ header span{
   color: white;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   flex-flow: column;
 }
 .fitness {
@@ -348,7 +345,7 @@ header span{
   padding-top: 20px;
 }
 .gallery  li:nth-child(3n+2) {
-  margin-left:10px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 .gallery  li img {
@@ -365,7 +362,7 @@ header span{
   float: left;
   color: white;
   width: 50%;
-  background-color:rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.6);
   text-align: center;
   margin-left: 12px;
   padding: 62px;
@@ -375,10 +372,10 @@ header span{
   float: left;
   margin-top: 60px;
 }
-.map iframe{
+.map iframe {
   width:100%;
 }
-.details input{
+.details input {
   width: 95%;
   height: 45px;
   margin: 10px;
@@ -387,10 +384,10 @@ header span{
   background-color: #969591;
   border: none;
 }
-::placeholder{
+::placeholder {
   color: white;
 }
-.details a{
+.details a {
   padding: 8px;
   background-color: black;
   color: white;
@@ -399,13 +396,14 @@ header span{
 }
 .details a:hover {
   background-color:white;
-  color:black;
+  color: black;
 }
 .contact {
   margin-top: 20px;
 }
 .details p {
   border-bottom: solid;
+  padding-bottom: 20px;
 }
 .footer {
   background-color: black;
@@ -455,18 +453,18 @@ footer .twitter:hover {
 header {
   width:100%;
   background-color: rgba(0,0,0,0.7);
-  position:fixed;
+  position: fixed;
   z-index: 2;
   display: flex;
   justify-content: space-between;
 }
 header nav {
   display: none;
-  background:rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.6);
   position: fixed;
   right: 0;
   padding: 0px;
-  top:68px;
+  top: 68px;
 }
 header .menu {
   color: white;
@@ -482,7 +480,7 @@ header .menu {
   margin-left: 0px;
 }
 header.navigation.menu {
-  display:none;
+  display: none;
 }
 header.close {
   position: fixed;
@@ -491,12 +489,12 @@ header.close {
   display: none;
 }
 header.mobile.menu {
-  display:none;
+  display: none;
 }
 .navigation.mobile {
   display: inline;
 }
-  .navigation ul li a:hover {
+.navigation ul li a:hover {
   color: white;
 }
 .smart {
@@ -528,7 +526,7 @@ header.mobile.menu {
   margin-left: 70px;
   width: 250px;
 }
-  .head1 {
+.head1 {
   font-size: 20px;
   color: white;
 }
@@ -543,12 +541,10 @@ header.mobile.menu {
 .head4 {
   display: none;
 }
-
-  /*best services*/
+   /*best services*/
 .services {
   display: none;
 }
-
 .services .service-bg,
 .services .service-bg:after,
 .services .service-bg:before {
@@ -617,7 +613,7 @@ header.mobile.menu {
 }
 
   /* Besct classes styles */
-  .best-classes {
+.best-classes {
   background-image: none;
   background-color:#e2e2e2;
   padding-top: 30px;
@@ -709,7 +705,7 @@ header.mobile.menu {
   justify-content:center;
   flex-flow: column;
 }
-.fitness{
+.fitness {
  text-transform: uppercase;
 }
 .courses .course .info {
@@ -724,13 +720,13 @@ header.mobile.menu {
 .courses .course .info p {
     font-size: 22px;
 }
-  .mainhead{
+.mainhead {
   background-color: rgba(255,0,0,0.5);
   padding: 15px;
   text-align: center;
   text-transform: uppercase;
 }
-.timing{
+.timing {
   margin: 21px 0;
 }
 .timings a {
@@ -744,10 +740,9 @@ header.mobile.menu {
   font-size: 20px;
 }
 .price p {
-    font-size: 20px;
+  font-size: 20px;
 }
   /* Gallery Session*/
-
 .gallery {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -810,9 +805,9 @@ header.mobile.menu {
   background-color: #969591;
 }
 ::placeholder {
-    color: white;
+  color: white;
 }
-  .details a {
+.details a {
   padding: 8px;
   background-color: black;
   color: white;
@@ -840,5 +835,5 @@ header.mobile.menu {
 }
 .footer ul {
   float: none;
-    }
-  }
+}
+}
