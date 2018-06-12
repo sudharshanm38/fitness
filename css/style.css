@@ -563,7 +563,7 @@ header.mobile.menu {
   margin: 0px auto;
   background-repeat: no-repeat;
   padding-top: 26px;
-  margin-left: 75px;
+  margin-left: 40px;
   text-align:center;
   padding-bottom: 13px;
 }
@@ -572,6 +572,7 @@ header.mobile.menu {
   float:none;
   list-style-type: none;
   margin:0 auto;
+  padding: 25px;
 }
 .inner li p {
   margin: 0 auto;
@@ -827,8 +828,9 @@ header.mobile.menu {
 .footer p {
   color: white;
   padding: 24px;
-  padding-left: 180px;
-  float: left;
+  padding-left: 0px;
+  float: none;
+  text-align: center;
 }
 .footer li {
   display: none;
